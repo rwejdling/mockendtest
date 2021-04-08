@@ -1,20 +1,13 @@
 {
-  "instance":
-    {
-      "id": "string",
-      "nodename": "string",
-      "dns_name": "string",
-      "launch_time_utc": "date",
-      "uptime": "string",
-      "private_ip_address": "string",
-      "state": {
-        "Code": "int",
-        "Name": "string"
-      },
-      "tags": "tag[]"
-    },
-    "tag": {
-      "Key": "string",
-      "Value": "string"
-    }
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
