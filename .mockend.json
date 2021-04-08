@@ -6,15 +6,6 @@
       "dns_name": "string",
       "launchUtc": "date",
       "uptime": "string",
-      "privateIpAddr": "string",
-      "state": {
-        "Code": "int",
-        "Name": "string"
-      },
-      "tags": "Tag[]"
-    },
-    "Tag": {
-      "key": "string",
-      "value": "string"
+      "privateIpAddr": "string"
     }
 }
