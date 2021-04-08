@@ -4,8 +4,13 @@
       "id": "string",
       "nodename": "string",
       "dns_name": "string",
-      "launchUtc": "date",
+      "launch_time_utc": "date",
       "uptime": "string",
-      "privateIpAddr": "string"
+      "private_ip_addr": "string",
+      "tags": "Tag[]"
+    },
+    "Tag": {
+      "key": "string",
+      "value": "string"
     }
 }
